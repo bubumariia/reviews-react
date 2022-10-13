@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightblue;
+  border-radius: 50px;
+  padding: 20px;
+}
+.image {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.name {
+  margin: 20px 0px 10px 0px;
+}
+.job {
+  margin: 0px;
+  color: rgb(50, 190, 237);
+}
+.text {
+  text-align: center;
+}
+.next-btn,
+.previews-btn {
+  width: 100px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+}
+.previews-btn:hover {
+  background-color: rgb(50, 190, 237);
+}
+.next-btn:hover {
+  background-color: rgb(50, 190, 237);
+}
+
+.surprise-btn {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+}
+.surprise-btn:hover {
+  background-color: rgb(50, 190, 237);
+}
